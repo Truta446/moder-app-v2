@@ -4,12 +4,12 @@
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "lint": "ng lint"
+    "ionic": "ionic",
+    "start": "ionic serve",
+    "start:ssl": "ionic serve --ssl --external",
+    "build": "ionic build --prod",
+    "build:android": "ionic capacitor build android --prod",
+    "build:ios": "ionic capacitor build iso --prod"
   },
   "private": true,
   "dependencies": {
@@ -21,12 +21,14 @@
     "@angular/platform-browser": "^18.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
+    "@capacitor/android": "6.1.0",
     "@capacitor/app": "6.0.0",
     "@capacitor/core": "6.1.0",
     "@capacitor/haptics": "6.0.0",
     "@capacitor/keyboard": "6.0.1",
     "@capacitor/status-bar": "6.0.0",
     "@ionic/angular": "^8.0.0",
+    "cordova-plugin-ionic": "5.5.3",
     "ionicons": "^7.2.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
