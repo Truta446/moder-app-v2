@@ -21,8 +21,8 @@ import {
   RefresherCustomEvent,
 } from '@ionic/angular/standalone';
 import { catchError, finalize } from 'rxjs';
-import { MovieModel } from 'src/app/models/movie/movie.model';
-import { MovieService } from 'src/app/services/movie.service';
+import { MovieModel } from 'src/app/shared/models/movie/movie.model';
+import { MovieService } from 'src/app/shared/services/movie.service';
 import { environment } from 'src/environments/environment';
 
 @Component({

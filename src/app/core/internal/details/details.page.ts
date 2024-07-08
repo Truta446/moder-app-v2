@@ -25,11 +25,11 @@ import {
   IonItem,
   IonCardContent,
 } from '@ionic/angular/standalone';
-import { MovieService } from 'src/app/services/movie.service';
 import { environment } from 'src/environments/environment';
-import { MovieModel } from 'src/app/models/movie/movie.model';
 import { addIcons } from 'ionicons';
 import { cashOutline, calendarOutline } from 'ionicons/icons';
+import { MovieService } from 'src/app/shared/services/movie.service';
+import { MovieModel } from 'src/app/shared/models/movie/movie.model';
 
 @Component({
   selector: 'app-details',

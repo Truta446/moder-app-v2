@@ -4,7 +4,7 @@ export const routes: Routes = [
   {
     path: 'home',
     loadComponent: () =>
-      import('./pages/home/home.page').then((m) => m.HomePage),
+      import('./core/internal/home/home.page').then((m) => m.HomePage),
   },
   {
     path: '',
@@ -14,6 +14,6 @@ export const routes: Routes = [
   {
     path: 'details/:id',
     loadComponent: () =>
-      import('./pages/details/details.page').then((m) => m.DetailsPage),
+      import('./core/internal/details/details.page').then((m) => m.DetailsPage),
   },
 ];
