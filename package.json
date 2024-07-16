@@ -10,7 +10,7 @@
     "start:android": "ionic capacitor run android -l --external --open",
     "build": "ionic build --prod",
     "build:android": "ionic capacitor build android --prod",
-    "build:ios": "ionic capacitor build iso --prod"
+    "build:ios": "ionic capacitor build ios --prod"
   },
   "private": true,
   "dependencies": {

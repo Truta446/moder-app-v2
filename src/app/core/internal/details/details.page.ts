@@ -1,13 +1,11 @@
 import {
   Component,
   Input,
-  OnInit,
   WritableSignal,
   inject,
   signal,
 } from '@angular/core';
-import { CommonModule, CurrencyPipe, DatePipe } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { CurrencyPipe, DatePipe } from '@angular/common';
 import {
   IonContent,
   IonHeader,
